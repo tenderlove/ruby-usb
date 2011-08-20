@@ -17,7 +17,8 @@ Hoe.spec 'usb' do
   extra_dev_deps << ['rake-compiler', '>= 0.4.1']
 
   self.spec_extras = {
-    :extensions            => ["ext/usb/extconf.rb"],
+    :extensions  => ["ext/usb/extconf.rb"],
+    :homepage    => 'http://www.a-k-r.org/ruby-usb/'
   }
 
   Rake::ExtensionTask.new "usb", spec do |ext|
