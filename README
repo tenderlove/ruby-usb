@@ -32,9 +32,17 @@ LGPL
 
 == Install
 
-  % ruby extconf.rb 
-  % make
-  % make install
+  % gem install usb
+
+== Packaging
+
+  % rake package
+
+== Releasing to rubygems.org
+
+Make sure to `gem install hoe-git` first.
+
+  % rake release VERSION=0.3.0
 
 == Reference Manual
 

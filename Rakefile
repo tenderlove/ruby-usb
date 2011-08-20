@@ -5,6 +5,8 @@ require 'hoe'
 gem 'rake-compiler', '>= 0.4.1'
 require "rake/extensiontask"
 
+Hoe.plugin :git # gem install hoe-git
+
 Hoe.spec 'usb' do
   developer 'Tanaka Akira', 'akr@fsij.org'
 
