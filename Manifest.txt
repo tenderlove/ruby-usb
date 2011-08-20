@@ -1,0 +1,10 @@
+COPYING
+ChangeLog
+Manifest.txt
+README
+Rakefile
+ext/usb/constants.h
+ext/usb/extconf.rb
+ext/usb/usb.c
+lib/usb.rb
+sample/usb-power

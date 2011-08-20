@@ -61,6 +61,8 @@ require 'usb.so'
 #
 
 module USB
+  VERSION = '0.3.0'
+
   def USB.busses
     result = []
     bus = USB.first_bus
